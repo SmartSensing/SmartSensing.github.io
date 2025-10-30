@@ -26,8 +26,8 @@ author:
   avatar           : "/images/500x300.jpg"
   name             : "Anwar Elhadad"
   pronouns         : # example: "she/her"  
-  bio              : "The Smart Sensing Lab is a multidisciplinary research group dedicated to advancing intelligent sensing technologies for the next generation of smart systems. Our mission is to bridge the gap between physical sensing and digital intelligence — enabling systems that can perceive, understand, and adapt to complex environments in real time."
-  location         : "4400 vestal parkway east"
+  bio              : "The Smart Sensing Lab is a multidisciplinary research group dedicated to advancing intelligent sensing technologies for the next generation of smart systems."
+  location         : "4400 Vestal Parkway East, Binghamton, NY"
   employer         : "Binghamton University - SUNY"
   uri              : # https://www.binghamton.edu/electrical-computer-engineering/
   email            : "aelhada1@binghamton.edu" 
