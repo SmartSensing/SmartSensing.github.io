@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/picture.jpg"
+  avatar           : "/images/picture.jpg"
   name             : "Anwar Elhadad"
   pronouns         : # example: "she/her"  
   bio              : "The Smart Sensing Lab is a multidisciplinary research group dedicated to advancing intelligent sensing technologies for the next generation of smart systems. Our mission is to bridge the gap between physical sensing and digital intelligence — enabling systems that can perceive, understand, and adapt to complex environments in real time."
