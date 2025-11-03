@@ -22,15 +22,13 @@ repository               : "SmartSensing/SmartSensing.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Biographic information
-  avatar           : "/images/500x300.jpg"
-  name             : "Anwar Elhadad"
-  pronouns         : # example: "she/her"  
-  bio              : "The Smart Sensing Lab is a multidisciplinary research group dedicated to advancing intelligent sensing technologies for the next generation of smart systems."
-  location         : "4400 Vestal Parkway East, Binghamton, NY"
-  employer         : "Binghamton University-SUNY"
-  uri              : # https://www.binghamton.edu/electrical-computer-engineering/
-  email            : "aelhada1@binghamton.edu" 
+  name: "Anwar Elhadad"
+  avatar: "/images/20250225_170945.jpg"   # use the image that loads in your browser
+  bio: "The Smart Sensing Lab is a multidisciplinary research group dedicated to advancing intelligent sensing technologies for the next generation of smart systems."
+  location: "4400 Vestal Parkway East, Binghamton, NY"
+  employer: "Binghamton University – SUNY"
+  uri: "https://www.binghamton.edu/electrical-computer-engineering/"
+  email: "aelhada1@binghamton.edu" 
 
   # Academic websites
   academia         : # URL
