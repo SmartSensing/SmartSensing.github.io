@@ -24,3 +24,9 @@ date: 2025-09-01
 categories: [news]
 ---
 :tada: **Mohamed gallai** joined our group as a **Ph.D. student** — welcome!
+---
+title: "Welcome, Azaz"
+date: 2025-09-01
+categories: [news]
+---
+:tada: **Azaz-Ur-rehman Nasir** joined our group as a **Ph.D. student** — welcome!
