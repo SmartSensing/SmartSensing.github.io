@@ -5,7 +5,7 @@
  * This file controls what is imported from /_sass
  *
  * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
@@ -41,3 +41,26 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* --- custom overrides --- */
+
+/* Make the avatar display larger and circular */
+.author__avatar img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;   /* crop neatly */
+  border-radius: 50%;  /* circular image */
+}
+
+/* Wrap long text in the sidebar (address, employer, etc.) */
+.author__urls-wrapper {
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+  word-break: break-word !important;
+}
+
+/* Slightly wider text block for sidebar items */
+.author__urls li {
+  display: block;
+  max-width: 220px;
+}
