@@ -1,8 +1,8 @@
 ---
 layout: home
-author_profile: true
+permalink: /
 title: "Smart Sensing Lab"
+author_profile: true
 ---
 
-Welcome to the Smart Sensing Lab.
-
+Welcome to the Smart Sensing Lab at Binghamton University (SUNY).
