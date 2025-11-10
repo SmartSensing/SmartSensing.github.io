@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
@@ -7,49 +7,32 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## Education
+- **Ph.D., Electrical Engineering (BioMEMS)** — Binghamton University, **2024**
+- **M.S., Electrical Engineering** — University of Vermont, **2020**
+- **B.S., Electrical Engineering** — University of Vermont, **2019**
 
-Education
-======
-* Ph.D in BioMEMS "Electrical Engineering", Binghamton University, 2024
-* M.S. in Electrical Engineering, University of Vermont, 2020
-* B.S. in Electrical Engineering, University of Vermont, 2019
+## Work Experience
+- **Assistant Professor**, Binghamton University — **Fall 2024–present**  
+  - Teaching and research.
 
-Work experience
-======
-* Fall 2024: Assisstant Professor
-  * Binghamton University 
-  * Duties includes: Teaching and Research
- 
-  
-Research Topics
-======
-* BioMEMS
-* Sensing 
-  * Wireless sensing (RF * Camera)
-  * Wearable electronics
-  * VR
-* Biofriendly electrodes
+## Research Topics
+- BioMEMS  
+- Sensing  
+  - Wireless sensing (RF + Camera)  
+  - Wearable electronics  
+  - VR  
+- Biofriendly electrodes
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Reviewer for IEEE journal and conferences
-* Reviewer for NSF programs
+## Service and Leadership
+- Reviewer for IEEE journals and conferences  
+- Reviewer for NSF programs
+
+---
+
+<h2>Curriculum Vitae (PDF)</h2>
+<p>
+  <a href="/files/CV.pdf" target="_blank" rel="noopener" class="btn">
+    Download CV (PDF)
+  </a>
+</p>
