@@ -1,14 +1,63 @@
 ---
-layout: archive
-title: "Portfolio"
+layout: single
+title: "Event Gallery"
 permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
+<style>
+.event-gallery { display: grid; gap: 2.5rem; }
+.event-gallery__event { border-top: 3px solid #006d5b; padding-top: 1rem; }
+.event-gallery__event h2 { margin-bottom: .25rem; }
+.event-gallery__event p { margin-top: 0; }
+.event-gallery__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1rem; }
+.event-gallery__photo { display: block; overflow: hidden; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,.16); background: #f5f5f5; }
+.event-gallery__photo img { display: block; width: 100%; height: 260px; object-fit: cover; transition: transform .2s ease; }
+.event-gallery__photo:hover img { transform: scale(1.03); }
+.event-gallery__caption { display: block; padding: .65rem .75rem; color: #333; font-weight: 600; }
+</style>
 
+<p>Highlights from Smart Sensing Lab conference presentations and events. Select any photograph to view it in full size.</p>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="event-gallery">
+  <section class="event-gallery__event">
+    <h2>SaTC 2025</h2>
+    <p>Secure and Trustworthy Cyberinfrastructure for IoT and Microelectronics (SaTC).</p>
+    <div class="event-gallery__grid">
+      <a class="event-gallery__photo" href="{{ '/images/events/satc-2025.jpg' | relative_url }}" target="_blank" rel="noopener">
+        <img src="{{ '/images/events/satc-2025.jpg' | relative_url }}" alt="Smart Sensing Lab participant at SaTC 2025" loading="lazy">
+        <span class="event-gallery__caption">SaTC 2025</span>
+      </a>
+    </div>
+  </section>
 
+  <section class="event-gallery__event">
+    <h2>IEEE MDTS 2026</h2>
+    <p>IEEE Microelectronics Design &amp; Test Symposium.</p>
+    <div class="event-gallery__grid">
+      <a class="event-gallery__photo" href="{{ '/images/events/mdts-2026-group.jpg' | relative_url }}" target="_blank" rel="noopener">
+        <img src="{{ '/images/events/mdts-2026-group.jpg' | relative_url }}" alt="Three IEEE MDTS 2026 attendees holding certificates" loading="lazy">
+        <span class="event-gallery__caption">Conference recognition</span>
+      </a>
+      <a class="event-gallery__photo" href="{{ '/images/events/mdts-2026-presentation.jpg' | relative_url }}" target="_blank" rel="noopener">
+        <img src="{{ '/images/events/mdts-2026-presentation.jpg' | relative_url }}" alt="IEEE MDTS 2026 presentation" loading="lazy">
+        <span class="event-gallery__caption">IEEE MDTS 2026</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="event-gallery__event">
+    <h2>IEEE Hilton Head Workshop 2026</h2>
+    <p>Poster presentations from the 2026 Hilton Head Workshop.</p>
+    <div class="event-gallery__grid">
+      <a class="event-gallery__photo" href="{{ '/images/events/hilton-head-2026-poster-1.jpg' | relative_url }}" target="_blank" rel="noopener">
+        <img src="{{ '/images/events/hilton-head-2026-poster-1.jpg' | relative_url }}" alt="Hilton Head Workshop 2026 poster presentation" loading="lazy">
+        <span class="event-gallery__caption">Poster presentation</span>
+      </a>
+      <a class="event-gallery__photo" href="{{ '/images/events/hilton-head-2026-poster-2.jpg' | relative_url }}" target="_blank" rel="noopener">
+        <img src="{{ '/images/events/hilton-head-2026-poster-2.jpg' | relative_url }}" alt="Hilton Head Workshop 2026 poster presentation" loading="lazy">
+        <span class="event-gallery__caption">Poster presentation</span>
+      </a>
+    </div>
+  </section>
+</div>
